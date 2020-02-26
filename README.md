@@ -1,5 +1,8 @@
 # React Practice
-Repository created to record my practice learning React with exercices base on [React Course](https://www.udemy.com/user/sgslo/) of [Stephen Grider](https://www.udemy.com/course/react-redux)
+Repository created to record my practice learning React with exercices base on [React Course](https://www.udemy.com/user/sgslo/) of [Stephen Grider](https://www.udemy.com/course/react-redux).
 
-## Progress
- - React project created with [Creation tool](https://www.npmjs.com/package/create-react-app)
+## Changelog
+| Version | Progress |
+| ------ | ------ |
+| 0.0.2 | How to use css classes, styles and js variables in jsx |
+| 0.0.1 | React project created with [Create-react-app](https://www.npmjs.com/package/create-react-app) |
