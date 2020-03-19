@@ -1,37 +1,20 @@
 {
   "name": "react-practice",
-  "version": "0.0.3",
-  "description": "Repository created to record my practice learning React",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.1",
-    "@testing-library/user-event": "^7.2.1",
-    "faker": "^4.1.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.4.0"
-  },
+  "version": "0.1.0",
+  "description": "Used to record practice of react",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "setup-comments": "cd ./1-comments && npm i",
+    "setup-seasons": "cd ./1-seasons && npm i",
+    "setup-all": "npm run setup-comments && npm run setup-seasons"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasOmar/react-practice.git"
   },
   "author": "Nicolás Omar González Passerino",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasOmar/react-practice/issues"
+  },
+  "homepage": "https://github.com/NicolasOmar/react-practice#readme"
 }
