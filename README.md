@@ -27,11 +27,16 @@ npm start
    - Component creation with data passing using props & composition using props.children.
    - Add mocked data with [Faker.js](https://www.npmjs.com/package/faker)
    - Basic usage of [Semantic UI](https://semantic-ui.com/) as main UI library
+ - Seasons app ('2-seasons' folder)
+   - Use class based components
+   - [Gelocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) usage
+   - Use states (creation and update)
+   - 'componentDidMount' usage
  
 
-## Version (currently v0.1.0)
+## Version (currently v0.1.1)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 1 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 1 | How many times i have updated the next exercise/app |
