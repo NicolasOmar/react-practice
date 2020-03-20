@@ -31,7 +31,8 @@ npm start
    - Use class based components
    - [Gelocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) usage
    - Use states (creation and update)
-   - 'componentDidMount' usage
+   - How to use 'componentDidMount'
+   - How to use DefaultProps
  
 
 ## Version (currently v0.1.1)
