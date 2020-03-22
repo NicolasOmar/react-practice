@@ -9,6 +9,8 @@ Repository created to record my practice learning React with exercices base on [
 | ------ | ------ |
 | All | npm run setup-all |
 | Comments | npm run setup-comments |
+| Seasons | npm run setup-seasons |
+| Searcher | npm run setup-searcher |
 
 ## How to run it
 To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
@@ -29,15 +31,16 @@ npm start
    - Basic usage of [Semantic UI](https://semantic-ui.com/) as main UI library
  - Seasons app ('2-seasons' folder)
    - Use class based components
-   - [Gelocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API) usage
+   - How to use [Gelocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
    - Use states (creation and update)
    - How to use 'componentDidMount'
    - How to use DefaultProps
+ - Searcher app ('3-searcher' folder)
  
 
-## Version (currently v0.1.1)
+## Version (currently v0.2.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 1 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 2 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |

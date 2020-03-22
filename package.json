@@ -4,8 +4,9 @@
   "description": "Used to record practice of react",
   "scripts": {
     "setup-comments": "cd ./1-comments && npm i",
-    "setup-seasons": "cd ./1-seasons && npm i",
-    "setup-all": "npm run setup-comments && npm run setup-seasons"
+    "setup-seasons": "cd ./2-seasons && npm i",
+    "setup-searcher": "cd ./3-searcher && npm i",
+    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-searcher"
   },
   "repository": {
     "type": "git",
