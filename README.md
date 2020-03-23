@@ -11,6 +11,7 @@ Repository created to record my practice learning React with exercices base on [
 | Comments | npm run setup-comments |
 | Seasons | npm run setup-seasons |
 | Finder | npm run setup-finder |
+| Videos | npm run setup-videos |
 
 ## How to run it
 To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
@@ -44,11 +45,14 @@ npm start
    - Add API folder to have a better project structure isolating API logic
    - Handle a list of elements with [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) function
    - Show date formats with [moment](https://www.npmjs.com/package/moment)
+   - Css grid
+   - Handle DOM style with React.createRef
+ - Videos app ('4-videos' folder)
  
 
-## Version (currently v0.2.2)
+## Version (currently v0.3.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 2 | How many exercices/apps i have completed |
-| 2 | How many times i have updated the next exercise/app |
+| 3 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |

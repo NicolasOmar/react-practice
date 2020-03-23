@@ -1,6 +1,7 @@
 import React from 'react'
 // IMPORT COMPONENTS
 import SearchBar from './SearchBar'
+// import SemanticImageList from './SemanticImageList'
 import ImageList from './ImageList'
 // IMPORT API DATA
 import unsplash from '../api/unsplash'
@@ -25,6 +26,7 @@ class App extends React.Component {
     return (
       <div className="ui container" style={{ marginTop: '10px' }}>
         <SearchBar onSearchSubmit={onSearchSubmit} />
+        {/* <SemanticImageList images={this.state.images} /> */}
         <ImageList images={this.state.images} />
       </div>
     )
