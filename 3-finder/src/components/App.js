@@ -1,34 +1,34 @@
 import React from 'react'
-// IMPORT PACKAGES
-import axios from 'axios'
 // IMPORT COMPONENTS
 import SearchBar from './SearchBar'
-// IMPORT IDS
-import dataConfig from '../config/data'
+import ImageList from './ImageList'
+// IMPORT API DATA
+import unsplash from '../api/unsplash'
 
-const App = () => {
-  const onSearchSubmit = async (data) => {
-    const result = data.length ? 
-      await axios.get(
-        'https://api.unsplash.com/search/photos',
-        {
-          headers: {
-            Authorization: `Client-ID ${dataConfig.CLIENT_ID}`
-          },
-          params: {
-            query: data
+class App extends React.Component {
+  state = { images: [] }
+  render() {
+    const onSearchSubmit = async (data) => {
+      const result = data.length ? 
+        await unsplash.get(
+          '/search/photos',
+          {
+            params: {
+              query: data
+            }
           }
-        }
-      ) : await null
-    
-    console.warn((result && result.data.results) || 'Please, write a word to find images')
-  }
+        ) : await []
+      
+      this.setState({ images: (result.data && result.data.results) || result})
+    }
 
-  return (
-    <div className="ui container" style={{ marginTop: '10px' }}>
-      <SearchBar onSearchSubmit={onSearchSubmit} />
-    </div>
-  )
+    return (
+      <div className="ui container" style={{ marginTop: '10px' }}>
+        <SearchBar onSearchSubmit={onSearchSubmit} />
+        <ImageList images={this.state.images} />
+      </div>
+    )
+  }
 }
 
 export default App

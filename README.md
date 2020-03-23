@@ -41,11 +41,14 @@ npm start
    - Pass and invoke parent functions in children components
    - Use [Unsplash API](https://unsplash.com/developers) to get photos
    - Handle API request with [Axios](https://www.npmjs.com/package/axios)
+   - Add API folder to have a better project structure isolating API logic
+   - Handle a list of elements with [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) function
+   - Show date formats with [moment](https://www.npmjs.com/package/moment)
  
 
-## Version (currently v0.2.1)
+## Version (currently v0.2.2)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 2 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 2 | How many times i have updated the next exercise/app |
