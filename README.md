@@ -10,7 +10,7 @@ Repository created to record my practice learning React with exercices base on [
 | All | npm run setup-all |
 | Comments | npm run setup-comments |
 | Seasons | npm run setup-seasons |
-| Searcher | npm run setup-searcher |
+| Finder | npm run setup-finder |
 
 ## How to run it
 To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
@@ -32,15 +32,20 @@ npm start
  - Seasons app ('2-seasons' folder)
    - Use class based components
    - How to use [Gelocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
-   - Use states (creation and update)
+   - Handle states (creation and update)
    - How to use 'componentDidMount'
    - How to use DefaultProps
- - Searcher app ('3-searcher' folder)
+ - Finder app ('3-finder' folder)
+   - How to handle Events
+   - Make a controlled input using states
+   - Pass and invoke parent functions in children components
+   - Use [Unsplash API](https://unsplash.com/developers) to get photos
+   - Handle API request with [Axios](https://www.npmjs.com/package/axios)
  
 
-## Version (currently v0.2.0)
+## Version (currently v0.2.1)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 2 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 1 | How many times i have updated the next exercise/app |

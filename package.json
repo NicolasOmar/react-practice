@@ -1,12 +1,12 @@
 {
   "name": "react-practice",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "Used to record practice of react",
   "scripts": {
     "setup-comments": "cd ./1-comments && npm i",
     "setup-seasons": "cd ./2-seasons && npm i",
-    "setup-searcher": "cd ./3-searcher && npm i",
-    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-searcher"
+    "setup-finder": "cd ./3-finder && npm i",
+    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-finder"
   },
   "repository": {
     "type": "git",
