@@ -12,6 +12,7 @@ Repository created to record my practice learning React with exercices base on [
 | Seasons | npm run setup-seasons |
 | Finder | npm run setup-finder |
 | Videos | npm run setup-videos |
+| Songs | npm run setup-songs |
 
 ## How to run it
 To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
@@ -48,11 +49,15 @@ npm start
    - Css grid
    - Handle DOM style with React.createRef
  - Videos app ('4-videos' folder)
+   - Work with [Google/Youtube API](https://console.developers.google.com/)
+   - Better understanding of prop passing between parent and children components
+ - Songs app ('4-songs' folder)
+   - Integrate [Redux](https://www.npmjs.com/package/redux) into a React project using [React-Redux](https://www.npmjs.com/package/react-redux)
  
 
-## Version (currently v0.3.0)
+## Version (currently v0.4.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 3 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 4 | How many exercices/apps i have completed |
+| 1 | How many times i have updated the next exercise/app |

@@ -1,13 +1,14 @@
 {
   "name": "react-practice",
-  "version": "0.2.2",
+  "version": "0.4.1",
   "description": "Used to record practice of react",
   "scripts": {
     "setup-comments": "cd ./1-comments && npm i",
     "setup-seasons": "cd ./2-seasons && npm i",
     "setup-finder": "cd ./3-finder && npm i",
     "setup-videos": "cd ./4-videos && npm i",
-    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-finder && npm run setup-videos"
+    "setup-songs": "cd ./5-songs && npm i",
+    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-finder && npm run setup-videos && npm run setup-songs"
   },
   "repository": {
     "type": "git",
