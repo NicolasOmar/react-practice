@@ -53,11 +53,12 @@ npm start
    - Better understanding of prop passing between parent and children components
  - Songs app ('4-songs' folder)
    - Integrate [Redux](https://www.npmjs.com/package/redux) into a React project using [React-Redux](https://www.npmjs.com/package/react-redux)
+   - Work with Providers, reducers and actions to pass data between components
  
 
-## Version (currently v0.4.0)
+## Version (currently v0.5.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 4 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 5 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |

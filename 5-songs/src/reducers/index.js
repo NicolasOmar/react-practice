@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux'
 
+// HERE YOU HAVE A STORE WITH THE SONGS FOR THIS EXCERCISE
 const songsReducer = () => {
   return [
     {
@@ -18,6 +19,7 @@ const songsReducer = () => {
   ]
 }
 
+// HERE YOU HAVE A REDUCER BASED ON A FUNCTION WHICH SELECTS A SONG
 const selectedSongReducer = (selectedSong = null, action) => {
   if (action.type === 'SONG_SELECTED') {
     return action.payload
@@ -26,6 +28,7 @@ const selectedSongReducer = (selectedSong = null, action) => {
   return selectedSong
 }
 
+// TO USE ALL THE REDUCERS IN THE APP, YOU NEED TO COMBINE THEM LIKE AN OBJECT IN THIS WAY
 export default combineReducers({
   songs: songsReducer,
   selectedSong: selectedSongReducer
