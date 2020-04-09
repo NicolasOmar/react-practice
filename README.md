@@ -55,13 +55,15 @@ npm start
  - Songs app ('5-songs' folder)
    - Integrate [Redux](https://www.npmjs.com/package/redux) into a React project using [React-Redux](https://www.npmjs.com/package/react-redux)
    - Work with `Providers`, `reducers` and `actions` to pass data between components
- - Blog app ('5-blog' folder)
+ - Blog app ('6-blog' folder)
    - Use Asyncronous action creators with [redux-thunk](https://www.npmjs.com/package/redux-thunk)
+   - Refactor code on `mapStateToProps` to use component props on the function
+   - Reduce endpoint calls in action creators
  
 
-## Version (currently v0.5.1)
+## Version (currently v0.6.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 5 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 6 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |
