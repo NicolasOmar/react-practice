@@ -8,7 +8,7 @@ class SongDetail extends React.Component{
 }
 
 const mapStateToProps = state => {
-  return { song: state.selectedSong}
+  return { song: state.selectedSong }
 }
 
 export default connect(mapStateToProps)(SongDetail)

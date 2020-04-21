@@ -20,5 +20,5 @@ export const fetchPosts = () => async dispatch => {
 export const fetchUser = userId => async dispatch => {
   const { data } = await jsonPlaceholder.get(`/users/${userId}`)
 
-  dispatch({ type: 'FETCH_USER', payload: data})
+  dispatch({ type: 'FETCH_USER', payload: data })
 }

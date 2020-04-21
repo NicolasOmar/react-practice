@@ -14,6 +14,7 @@ Repository created to record my practice learning React with exercices base on [
 | Videos | npm run setup-videos |
 | Songs | npm run setup-songs |
 | Blog | npm run setup-blog |
+| Streams | npm run setup-streams |
 
 ## How to run it
 To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
@@ -47,7 +48,7 @@ npm start
    - Add API folder to have a better project structure isolating API logic
    - Handle a list of elements with [Array.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) function
    - Show date formats with [moment](https://www.npmjs.com/package/moment)
-   - Css grid
+   - Basic css grid
    - Handle DOM style with `React.createRef`
  - Videos app ('4-videos' folder)
    - Work with [Google/Youtube API](https://console.developers.google.com/)
@@ -56,14 +57,17 @@ npm start
    - Integrate [Redux](https://www.npmjs.com/package/redux) into a React project using [React-Redux](https://www.npmjs.com/package/react-redux)
    - Work with `Providers`, `reducers` and `actions` to pass data between components
  - Blog app ('6-blog' folder)
-   - Use Asyncronous action creators with [redux-thunk](https://www.npmjs.com/package/redux-thunk)
+   - Handle asyncronous action creators by a middleware with [redux-thunk](https://www.npmjs.com/package/redux-thunk)
    - Refactor code on `mapStateToProps` to use component props on the function
    - Reduce endpoint calls in action creators
+ - Streams app ('7-streams' folder)
+   - Handle web navigation with [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+   - Understand differences between `BrowserRouter`, `HashRouter` & `MemoryRouter`
  
 
-## Version (currently v0.6.0)
+## Version (currently v0.6.1)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 6 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 1 | How many times i have updated the next exercise/app |
