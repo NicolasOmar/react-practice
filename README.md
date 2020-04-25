@@ -63,11 +63,12 @@ npm start
  - Streams app ('7-streams' folder)
    - Handle web navigation with [react-router-dom](https://www.npmjs.com/package/react-router-dom)
    - Understand differences between `BrowserRouter`, `HashRouter` & `MemoryRouter`
+   - Basic knowledge of [Google Auth API](https://developers.google.com/identity)
  
 
-## Version (currently v0.6.1)
+## Version (currently v0.6.2)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 6 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 2 | How many times i have updated the next exercise/app |

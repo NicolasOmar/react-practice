@@ -1,6 +1,6 @@
 {
   "name": "7-streams",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "start": "cd ./client && npm start",
     "install": "cd ./client && npm i"

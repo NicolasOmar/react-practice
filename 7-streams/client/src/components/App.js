@@ -5,13 +5,15 @@ import StreamEdit from './streams/StreamEdit'
 import StreamDelete from './streams/StreamDelete'
 import StreamList from './streams/StreamList'
 import StreamShow from './streams/StreamShow'
+import Header from './Header'
 
 
 class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="ui container">
+          <Header />
           <Route path="/" exact={true} component={StreamList} />
           <Route path="/streams/new" component={StreamCreate} />
           <Route path="/streams/edit" component={StreamEdit} />
@@ -19,7 +21,7 @@ class App extends React.Component {
           <Route path="/streams/show" component={StreamShow} />
         </div>
       </BrowserRouter>
-    )
+    ) 
   }
 }
 
