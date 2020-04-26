@@ -64,11 +64,14 @@ npm start
    - Handle web navigation with [react-router-dom](https://www.npmjs.com/package/react-router-dom)
    - Understand differences between `BrowserRouter`, `HashRouter` & `MemoryRouter`
    - Basic knowledge of [Google Auth API](https://developers.google.com/identity)
+   - Use redux on forms with [redux-form](https://www.npmjs.com/package/redux-form)
+   - Mount a small REST server with [json-server](https://www.npmjs.com/package/json-server)
+   - Use [lodash](https://www.npmjs.com/package/lodash) functions to array mapping and filtering
  
 
-## Version (currently v0.6.2)
+## Version (currently v0.6.3)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 6 | How many exercices/apps i have completed |
-| 2 | How many times i have updated the next exercise/app |
+| 3 | How many times i have updated the next exercise/app |
