@@ -1,33 +1,54 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { fetchStreams } from '../../actions'
+import { Link } from 'react-router-dom'
 
 class StreamList extends React.Component {
   componentDidMount() {
     this.props.fetchStreams()
   }
 
+  renderAdminBtn = stream => {
+    return stream.userId === this.props.userId ?
+      (
+        <div className="right floated content">
+          <Link to={`/streams/edit/${stream.id}`} className="ui button primary">EDIT</Link>
+          <button className="ui button negative">DELETE</button>
+        </div>
+      ) :
+      null
+  }
+
   render() {
-    const { streams } = this.props
+    const { streams, isSignedIn } = this.props    
     
     return (
-      <div className="">
+      <div className="content">
         <h2>Streams</h2>
         <div className="ui celled list">
           {
             streams.length &&
-            streams.map(
-              ({ id, title, description }) => {
+            streams.map(stream => {
               return (
-                <div key={id} className="item">
+                <div key={stream.id} className="item">
+                  {this.renderAdminBtn(stream)}
                   <i className="large middle aligned icon camera" />
                   <div className="content">
-                    {title}
-                    <div className="description">{description}</div>
+                    {stream.title}
+                    <div className="description">{stream.description}</div>
                   </div>
                 </div>
                 )
               }
+            )
+          }
+          {
+            isSignedIn && (
+              <div>
+                <Link to="/streams/new" className="ui button primary">
+                  Create Stream
+                </Link>
+              </div>
             )
           }
         </div>
@@ -36,8 +57,11 @@ class StreamList extends React.Component {
   }
 }
 
-const mapStateToProps = ({ streams }) => {
-  return { streams: Object.values(streams) }
+const mapStateToProps = ({ streams, auth }) => {
+  return {
+    streams: Object.values(streams),
+    ...auth
+  }
 }
 
 export default connect(

@@ -67,9 +67,11 @@ npm start
    - Use redux on forms with [redux-form](https://www.npmjs.com/package/redux-form)
    - Mount a small REST server with [json-server](https://www.npmjs.com/package/json-server)
    - Use [lodash](https://www.npmjs.com/package/lodash) functions to array mapping and filtering
+   - Handle routing history in programatic way
+   - Refactor Form Components
  
 
-## Version (currently v0.6.3)
+## Version (currently v0.6.4)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |

@@ -1,6 +1,6 @@
 {
   "name": "react-practice",
-  "version": "0.6.2",
+  "version": "0.6.4",
   "description": "Used to record practice of react",
   "scripts": {
     "setup-comments": "cd ./1-comments && npm i",
