@@ -17,12 +17,14 @@ Repository created to record my practice learning React with exercices base on [
 | Streams | npm run setup-streams |
 
 ## How to run it
-To use any app, you just have to enter into it´s folder and run any of the scripts listed on it´s 'package.json' file. Each command runs with the following structure:
+To run the any specific project, execute the following comman in the project´s folder:
 ```sh
-npm run <command-name>
+npm start
 ```
-In case you want to run all available commands on a row, execute the following command:
+In the seventh project, you have to run the following commands in different terminal windows:
 ```sh
+npm run api
+npm run media
 npm start
 ```
 
@@ -70,11 +72,13 @@ npm start
    - Handle `routing history` in programatic way
    - Refactor Form Components
    - Use `CreatePortal` to handle modals
+   - Handle a Real Time Monitoring System
+   - Create a streaming channel using [OBS](http://obsproject.com/), [node-media-server](https://www.npmjs.com/package/node-media-server) and [flv.js](https://www.npmjs.com/package/flv.js)
  
 
-## Version (currently v0.6.5)
+## Version (currently v0.7.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 6 | How many exercices/apps i have completed |
-| 5 | How many times i have updated the next exercise/app |
+| 7 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |
