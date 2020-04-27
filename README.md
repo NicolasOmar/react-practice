@@ -15,6 +15,7 @@ Repository created to record my practice learning React with exercices base on [
 | Songs | npm run setup-songs |
 | Blog | npm run setup-blog |
 | Streams | npm run setup-streams |
+| Languages | npm run setup-languages |
 
 ## How to run it
 To run the any specific project, execute the following comman in the project´s folder:
@@ -74,11 +75,13 @@ npm start
    - Use `CreatePortal` to handle modals
    - Handle a Real Time Monitoring System
    - Create a streaming channel using [OBS](http://obsproject.com/), [node-media-server](https://www.npmjs.com/package/node-media-server) and [flv.js](https://www.npmjs.com/package/flv.js)
+ - Languages app (`8-languages` folder)
+   - Use `Context` as a alternative to `Redux` for distribute data to the other components
  
 
-## Version (currently v0.7.0)
+## Version (currently v0.7.1)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 7 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 1 | How many times i have updated the next exercise/app |

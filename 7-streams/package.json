@@ -5,6 +5,6 @@
     "start": "cd ./client && npm start",
     "media": "cd ./rtmpserver && npm start",
     "api": "cd ./api && npm start",
-    "install": "cd ./client && npm i && cd ./rtmpserver && npm i && cd ./api && npm i"
+    "install": "cd ./client && npm i && cd ../rtmpserver && npm i && cd ../api && npm i"
   }
 }
