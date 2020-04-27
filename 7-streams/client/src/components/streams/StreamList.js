@@ -12,8 +12,18 @@ class StreamList extends React.Component {
     return stream.userId === this.props.userId ?
       (
         <div className="right floated content">
-          <Link to={`/streams/edit/${stream.id}`} className="ui button primary">EDIT</Link>
-          <button className="ui button negative">DELETE</button>
+          <Link
+            to={`/streams/edit/${stream.id}`}
+            className="ui button primary"
+          >
+            EDIT
+          </Link>
+          <Link
+            to={`/streams/delete/${stream.id}`}
+            className="ui button negative"
+          >
+            DELETE
+          </Link>
         </div>
       ) :
       null
@@ -27,7 +37,7 @@ class StreamList extends React.Component {
         <h2>Streams</h2>
         <div className="ui celled list">
           {
-            streams.length &&
+            streams.length ?
             streams.map(stream => {
               return (
                 <div key={stream.id} className="item">
@@ -40,7 +50,8 @@ class StreamList extends React.Component {
                 </div>
                 )
               }
-            )
+            ) :
+            null
           }
           {
             isSignedIn && (
