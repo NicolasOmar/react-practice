@@ -1,7 +1,10 @@
 import React from 'react'
 import { Field, reduxForm } from 'redux-form'
 
+// THIS IS A COMMON COMPONENT CREATED TO HANDLE SIMILAR BEHAVIOURS IN DIFFERENT COMPONENTS WITH SAME STRUCTURE
+// (IN THIS CASE, A FORM)
 class StreamForm extends React.Component {
+  // THIS FUNCTION IS NEEDED TO RENDER EACH PROP IN A INPUT
   renderInput = ({ input, label, meta }) => {
     return (
       <div className="field">
@@ -25,6 +28,7 @@ class StreamForm extends React.Component {
   }
 }
 
+// REDUX FORM IS USED TO LINK PROPERTIES IN A REDUCER AVOIDING REDUCER/ACTION LOGIC, FOCUSING ON OTHER PARTES
 export default reduxForm({
   form: 'streamForm'
 })(StreamForm)

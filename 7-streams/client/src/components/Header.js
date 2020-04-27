@@ -1,4 +1,5 @@
 import React from 'react'
+// USED TO SEND THE USER TO A DESIRED PART OF THE PAGE
 import { Link } from 'react-router-dom'
 import GoogleAuth from './GoogleAuth'
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+// THOSE ARE ACTIONS USED TO HANDLE REST ENDPOINTS AND FEED DATA ON THE REDUCERS
 import { fetchStreams } from '../../actions'
 import { Link } from 'react-router-dom'
 
@@ -8,6 +9,7 @@ class StreamList extends React.Component {
     this.props.fetchStreams()
   }
 
+  // RENDER HELPER TO SEPARATE CODE AND ANALYZE IT BETTER
   renderAdminBtn = stream => {
     return stream.userId === this.props.userId ?
       (
