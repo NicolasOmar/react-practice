@@ -79,9 +79,9 @@ npm start
    - Use `Context` as a alternative to `Redux` for distribute data to the other components
  
 
-## Version (currently v0.7.1)
+## Version (currently v0.7.2)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 7 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+| 2 | How many times i have updated the next exercise/app |

@@ -11,7 +11,7 @@ class Field extends React.Component {
   // RELATED TO A CONFIGURATION OBJECT WITH ITS TEXTS LOADED, SO THIS STATEMENT WILL RETURN
   // THE CONTENTS RELATED TO THE LANGUAGE SELECTED BY THE USER
   render() {
-    const { labelText } = configObj[this.context]
+    const { labelText } = configObj[this.context.language]
     return (
       <div>
         <label>{labelText}</label>

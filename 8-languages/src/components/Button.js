@@ -9,9 +9,11 @@ class Button extends React.Component {
   render() {
     return (
       <button className="ui button primary">
-        <LanguageContext.Consumer>
-          { value => configObj[value].buttonText }
-        </LanguageContext.Consumer>
+        {
+          <LanguageContext.Consumer>
+            {({ language }) => configObj[language].buttonText }
+          </LanguageContext.Consumer>
+        }
       </button>
     )
   }
