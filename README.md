@@ -16,6 +16,7 @@ Repository created to record my practice learning React with exercices base on [
 | Blog | npm run setup-blog |
 | Streams | npm run setup-streams |
 | Languages | npm run setup-languages |
+| Posts | npm run setup-posts |
 
 ## How to run it
 To run the any specific project, execute the following comman in the project´s folder:
@@ -78,11 +79,13 @@ npm start
  - Languages app (`8-languages` folder)
    - Use `Context` as a alternative to `Redux` for distribute data to the other components
    - How to replace Redux using an custom Context implementation
+ - Posts app (`9-posts` folder)
+   - Use `Hooks` system to handle state data with `useState` and its updates with `useEffect`
  
 
-## Version (currently v0.8.0)
+## Version (currently v0.8.1)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
 | 8 | How many exercices/apps i have completed |
-| 0 | How many times i have updated the next exercise/app |
+| 1 | How many times i have updated the next exercise/app |

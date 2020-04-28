@@ -1,6 +1,6 @@
 {
   "name": "react-practice",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Used to record practice of react",
   "scripts": {
     "setup-comments": "cd ./1-comments && npm i",
@@ -11,7 +11,8 @@
     "setup-blog": "cd ./6-blog && npm i",
     "setup-streams": "cd ./7-streams && npm i",
     "setup-languages": "cd ./8-languages && npm i",
-    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-finder && npm run setup-videos && npm run setup-songs && npm run setup-blog && npm run setup-streams && npm run setup-languages"
+    "setup-posts": "cd ./9-posts && npm i",
+    "setup-all": "npm run setup-comments && npm run setup-seasons && npm run setup-finder && npm run setup-videos && npm run setup-songs && npm run setup-blog && npm run setup-streams && npm run setup-languages && npm run setup-posts"
   },
   "repository": {
     "type": "git",
