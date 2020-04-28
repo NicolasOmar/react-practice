@@ -1,8 +1,10 @@
 # React Practice
-Repository created to record my practice learning React with exercices base on [React Course](https://www.udemy.com/user/sgslo/) of [Stephen Grider](https://www.udemy.com/course/react-redux).
+Repository created to record my practice learning React with exercices base on [React Course](https://www.udemy.com/course/react-redux) of [Stephen Grider](https://www.udemy.com/user/sgslo/).
 
 ## Requirements
  - [Node](https://nodejs.org/en/download/) v12.16.1 or above
+ - For the eight exercise only
+   - [OBS](http://obsproject.com/)
 
  ## Setup
 | App Setup | Command |
@@ -19,11 +21,11 @@ Repository created to record my practice learning React with exercices base on [
 | Posts | npm run setup-posts |
 
 ## How to run it
-To run the any specific project, execute the following comman in the project´s folder:
+To run the any specific excercise, execute the following comman in the project´s folder:
 ```sh
 npm start
 ```
-In the seventh project, you have to run the following commands in different terminal windows:
+In the seventh excercise, you have to run the following commands in different terminals:
 ```sh
 npm run api
 npm run media
@@ -78,14 +80,12 @@ npm start
    - Create a streaming channel using [OBS](http://obsproject.com/), [node-media-server](https://www.npmjs.com/package/node-media-server) and [flv.js](https://www.npmjs.com/package/flv.js)
  - Languages app (`8-languages` folder)
    - Use `Context` as a alternative to `Redux` for distribute data to the other components
+   - How to use `Provider` and `Consumer`
    - How to replace Redux using an custom Context implementation
  - Posts app (`9-posts` folder)
    - Use `Hooks` system to handle state data with `useState` and its updates with `useEffect`
+   - How to isolate Hooks logic to use it in other contexts
  
 
-## Version (currently v0.8.1)
-| Number | Meaning |
-| ------ | ------ |
-| 0 | Course has been not completed |
-| 8 | How many exercices/apps i have completed |
-| 1 | How many times i have updated the next exercise/app |
+## Version (currently v1.0.0)
+**This course has been completed on 28/04/2020 - [Certificate](https://www.udemy.com/certificate/UC-405f16fd-38f0-4907-a4a7-44a4c2d1f424/)**

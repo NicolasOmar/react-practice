@@ -1,43 +1,26 @@
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
+import useResources from '../helpers/useResources'
 
-const ResoruceList = props => {
-  const [list, setList] = useState([])
-  const [loader, setLoader] = useState(false)
-  const { resource } = props
+const ResoruceList = ({ resource }) => {
+  // TO DEMOSTRATE A BETTER APPROACH TO ISOLATE HOOK LOGIC, I SEPARATED IT IN A FILE AND CALLED THE RESULTING METHOD
+  const resources = useResources(resource)
 
-  const fetchResource = async resource => {
-    setLoader(true)
-    const { data } = await axios.get(`http://jsonplaceholder.typicode.com/${resource}`)
-    setList(data)
-    setLoader(false)
-  }
-
-  useEffect(() => {
-    fetchResource(resource)
-  }, [resource])
-
-    return (
+  // EVERY TIME THE PROP 'resource' CHANGES IN THE FATHER COMPONENT, THE 'useResoruces' METHOD WILL USE THE SET METHOD INSIDE IT TO MAKE THE ENDPOINT CALL AND UPDATE THE CONST 'resources
+  return (
+    <div>
+      <h2>{`${resource} list`}</h2>
       <div>
         {
-          loader &&
-          <div className="ui active dimmer">
-            <div className="ui loader"></div>
-          </div>
+          resources.length > 0 ?
+          <ul>
+            {resources.map(
+              item => <li key={item.id}>{item.title}</li>
+            )}
+          </ul> : null
         }
-        <h2>{`${resource} list`}</h2>
-        <div>
-          {
-            list.length > 0 ?
-            <ul>
-              {list.map(
-                item => <li key={item.id}>{item.title}</li>
-              )}
-            </ul> : null
-          }
-        </div>
       </div>
-    )
+    </div>
+  )
 }
 
 export default ResoruceList
