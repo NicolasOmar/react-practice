@@ -77,11 +77,12 @@ npm start
    - Create a streaming channel using [OBS](http://obsproject.com/), [node-media-server](https://www.npmjs.com/package/node-media-server) and [flv.js](https://www.npmjs.com/package/flv.js)
  - Languages app (`8-languages` folder)
    - Use `Context` as a alternative to `Redux` for distribute data to the other components
+   - How to replace Redux using an custom Context implementation
  
 
-## Version (currently v0.7.2)
+## Version (currently v0.8.0)
 | Number | Meaning |
 | ------ | ------ |
 | 0 | Course has been not completed |
-| 7 | How many exercices/apps i have completed |
-| 2 | How many times i have updated the next exercise/app |
+| 8 | How many exercices/apps i have completed |
+| 0 | How many times i have updated the next exercise/app |
