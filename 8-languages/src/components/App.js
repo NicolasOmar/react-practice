@@ -1,17 +1,21 @@
 import React from 'react'
-import UserCreate from './UserCreate'
-// HERE YOU ADD THE CONTEXT
+// HERE YOU ADD THE CONTEXT AS A COMPONENT
 import { LanguageStore } from '../contexts/LanguageContext'
+// HERE YOU ADD THE IMPORTED COMPONENTS
+import UserCreate from './UserCreate'
 import LanguageSelector from './LanguageSelector'
 
 class App extends React.Component {
-  // TO SET THE CONTEXT VALUE, YOU NEED TO SER A PROVIDER AROUND THE CHILDREN COMPONENTS
-  // AND SET ITS VALUE AS THE STATE VALUE, SO THAT VALUE WILL CHANGE EVERY TIME THE USER CHANGE THE LANGUAGE
+  /*
+    INSTEAD IMPORTNG A CONTEXT PROVIDER, YOU IMPORT THE LANGUAGESTORE COMPONENT AND USE IT
+    ABOVE THE OTHER COMPONENTS USING THAT IMPLEMENTATION YOU INJECT THE VALUE OBJECT ON
+    THE CHILDREN COMPONENTS
+  */
   render() {
     return (
       <div className="ui container">
         <LanguageStore>
-          <LanguageSelector onLanguageChange={this.changeLanguage} />
+          <LanguageSelector />
           <UserCreate />
         </LanguageStore>
       </div>
