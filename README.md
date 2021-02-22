@@ -1,5 +1,5 @@
 # React Practice
-Repository created to record my practice learning React with exercices base on [React Course](https://www.udemy.com/course/react-redux) of [Stephen Grider](https://www.udemy.com/user/sgslo/).
+Repository created to record my practice learning React with exercises based on the [Udemy Course](https://www.udemy.com/course/react-redux) of [Stephen Grider](https://www.udemy.com/user/sgslo/).
 
 ## Requirements
  - [Node](https://nodejs.org/en/download/) v12.16.1 or above
@@ -21,11 +21,11 @@ Repository created to record my practice learning React with exercices base on [
 | Posts | npm run setup-posts |
 
 ## How to run it
-To run the any specific excercise, execute the following comman in the project´s folder:
+To run any specific exercise, execute the following command in the project´s folder:
 ```sh
 npm start
 ```
-In the seventh excercise, you have to run the following commands in different terminals:
+In the seventh exercise, you have to run the following commands in different terminals:
 ```sh
 npm run api
 npm run media
@@ -85,7 +85,11 @@ npm start
  - Posts app (`9-posts` folder)
    - Use `Hooks` system to handle state data with `useState` and its updates with `useEffect`
    - How to isolate Hooks logic to use it in other contexts
- 
 
 ## Version (currently v1.0.0)
 **This course has been completed on 28/04/2020 - [Certificate](https://www.udemy.com/certificate/UC-405f16fd-38f0-4907-a4a7-44a4c2d1f424/)**
+
+## Other Practice Repos
+| Node | React | Angular | GraphQL |
+| :---: | :---: | :---: | :---: |
+| [<img src="https://cdn.svgporn.com/logos/nodejs-icon.svg" title="Node Practice Repo" alt="Node Practice Repo" width="48px">](https://github.com/NicolasOmar/node-practice) | [<img src="https://cdn.svgporn.com/logos/react.svg" title="React Practice Repo" alt="React Practice Repo" width="48px">](https://github.com/NicolasOmar/react-practice) | [<img src="https://cdn.svgporn.com/logos/angular-icon.svg" title="Angular Practice Repo" alt="Angular Practice Repo" width="48px">](https://github.com/NicolasOmar/angular-practice) | [<img src="https://cdn.svgporn.com/logos/graphql.svg" title="GraphQL Practice Repo" alt="GraphQL Practice Repo" width="48px">](https://github.com/NicolasOmar/graphql-practice) |
