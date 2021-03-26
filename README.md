@@ -7,18 +7,25 @@ Repository created to record my practice learning React with exercises based on 
    - [OBS](http://obsproject.com/)
 
  ## Setup
+After cloning the repo, go to the created folder and install the node packages.
+```sh
+git clone https://github.com/NicolasOmar/react-practice.git
+cd react-practice
+npm run setup-all
+```
+`setup-all` is the command to install all the projects, but if you want to do it one by one, you can change that last line for one of the following:
 | App Setup | Command |
 | ------ | ------ |
-| All | npm run setup-all |
-| Comments | npm run setup-comments |
-| Seasons | npm run setup-seasons |
-| Finder | npm run setup-finder |
-| Videos | npm run setup-videos |
-| Songs | npm run setup-songs |
-| Blog | npm run setup-blog |
-| Streams | npm run setup-streams |
-| Languages | npm run setup-languages |
-| Posts | npm run setup-posts |
+| All | `npm run setup-all` |
+| Comments | `npm run setup-comments` |
+| Seasons | `npm run setup-seasons` |
+| Finder | `npm run setup-finder` |
+| Videos | `npm run setup-videos` |
+| Songs | `npm run setup-songs` |
+| Blog | `npm run setup-blog` |
+| Streams | `npm run setup-streams` |
+| Languages | `npm run setup-languages` |
+| Posts | `npm run setup-posts` |
 
 ## How to run it
 To run any specific exercise, execute the following command in the project´s folder:
@@ -81,7 +88,7 @@ npm start
  - Languages app (`8-languages` folder)
    - Use `Context` as a alternative to `Redux` for distribute data to the other components
    - How to use `Provider` and `Consumer`
-   - How to replace Redux using an custom Context implementation
+   - How to replace Redux using a custom Context implementation
  - Posts app (`9-posts` folder)
    - Use `Hooks` system to handle state data with `useState` and its updates with `useEffect`
    - How to isolate Hooks logic to use it in other contexts
