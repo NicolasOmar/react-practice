@@ -1,8 +1,23 @@
-# React Practice
+# <img src="https://cdn.simpleicons.org/react" title="React Practice Repo" alt="React Practice Repo" width="30"> React Practice
 Repository created to record my practice learning React with exercises based on the [Udemy Course](https://www.udemy.com/course/react-redux) of [Stephen Grider](https://www.udemy.com/user/sgslo/).
 
+## Table of contents
+- [Status](#status)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [How to run it](#how-to-run-it)
+- [Repo structure & what i learned in each exercise](#repo-structure--what-i-learned-in-each-exercise)
+- [Other practice repos](#other-practice-repos)
+
+## Status
+- Current repo's version is ![React practice version](https://img.shields.io/github/package-json/v/nicolasomar/react-practice?color=success&label=%20&style=flat-square)
+- **This course has been completed on 28/04/2020 - [Certificate](https://www.udemy.com/certificate/UC-405f16fd-38f0-4907-a4a7-44a4c2d1f424/)**
+
+### Why it has not any updated dependencies?
+After finishing its related Udemy course, I archive this repository and unarchive it when I start a new training and add a link in the [`Other practice repos`](#other-practice-repos) section referring to its new repo. But I don't update any associated dependency due to technology changes during the years between each practice, and the produced code which works with the mentioned [`requirements`](#requirements).
+
 ## Requirements
- - [Node](https://nodejs.org/en/download/) v12.16.1 or above
+ - [Node](https://nodejs.org/en/download/) `v12.16.1` or above
  - For the eight exercise only
    - [OBS](http://obsproject.com/)
 
@@ -39,7 +54,7 @@ npm run media
 npm start
 ```
 
-## Repo Structure & what i learned in each exercise
+## Repo structure & what i learned in each exercise
  - Comments app (`1-comments` folder)
    - Create a React project created with [Create-react-app](https://www.npmjs.com/package/create-react-app)
    - Use css classes, styles and js variables in jsx
@@ -93,10 +108,7 @@ npm start
    - Use `Hooks` system to handle state data with `useState` and its updates with `useEffect`
    - How to isolate Hooks logic to use it in other contexts
 
-## Version (currently v1.0.0)
-**This course has been completed on 28/04/2020 - [Certificate](https://www.udemy.com/certificate/UC-405f16fd-38f0-4907-a4a7-44a4c2d1f424/)**
-
-## Other Practice Repos
+## Other practice repos
 | Node | Angular | GraphQL | Typescript | HTML & CSS |
 | :---: | :---: | :---: | :---: | :---: |
 | [<img src="https://cdn.simpleicons.org/node.js" title="Node Practice Repo" alt="Node Practice Repo" width="48px">](https://github.com/NicolasOmar/node-practice) | [<img src="https://cdn.simpleicons.org/angular" title="Angular Practice Repo" alt="Angular Practice Repo" width="48px">](https://github.com/NicolasOmar/angular-practice) | [<img src="https://cdn.simpleicons.org/graphql" title="GraphQL Practice Repo" alt="GraphQL Practice Repo" width="48px">](https://github.com/NicolasOmar/graphql-practice) |  [<img src="https://cdn.simpleicons.org/typescript" title="Typescript Practice Repo" alt="Typescript Practice Repo" width="48px">](https://github.com/NicolasOmar/typescript-practice) | [<img src="https://cdn.simpleicons.org/html5" title="HTML and CSS Practice Repo" alt="HTML and CSS Practice Repo" width="48px">](https://github.com/NicolasOmar/html-css-practice) |
